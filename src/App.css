@@ -1,0 +1,27 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  padding-top: 2rem;
+  width: 100%;
+  background-color: azure;
+}
+
+.card {
+  height: 100%;
+  width: 100%;
+  margin: 8px 20px;
+  align-items: stretch;
+}
+.card:hover{
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
